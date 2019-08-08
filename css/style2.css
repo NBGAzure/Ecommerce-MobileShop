@@ -1,0 +1,257 @@
+/*==============================15.12.2017======================*/
+#details_form{
+	background: #f8f8f8;
+}
+.detail_txt{
+    color: #000000;
+    font-size: 18px;
+    font-family: 'HelveticaLTStdLight';
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+    margin: 0;
+    padding-top: 20px;
+
+}
+
+.top_banner {
+    position: absolute;
+    width: 100%;
+    background: rgba(33, 33, 33, 0.62);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#details .form-control{
+	border-radius: 0;
+    height: 40px;
+}
+.details_form {
+
+	font-size: 17px;
+	color: #807f7f;
+}
+#details {
+	background: #fff;
+	padding: 0 30px;
+	font-family: 'HelveticaLTStdFractionBold';
+}
+
+.checkbox .form-control_ville{
+	background: #faffbd;
+	padding: 6px 12px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    height: 35px;
+}
+.checkbox label, .radio label{
+	color:  #807f7f;
+	font-family: 'HelveticaLTStdFractionBold';
+	font-weight: 700;
+}
+
+#details_form textarea.form-control {
+    height: auto;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+    background-color: #b4d6ed;
+    border-color: #b4d6ed;
+}
+.seance_txt{
+	color: #000000;
+	font-weight: 700;
+	font-size: 15px; 
+}
+.btn_pour {
+    background: #fff;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 0;
+    float: right;
+    font-family: 'HelveticaLTStdRoman';
+    font-size: 12px;
+    width: 270px;
+    letter-spacing: 2px;
+    height: 43px;
+}
+.crm{
+	background: #fcfcfc;
+	padding: 20px 10px 60px 10px;
+}
+.black{
+	background: #000000;
+	color: #fff;
+	text-align: center;
+	font-family: 'HelveticaLTStdRoman';
+	padding: 10px;
+}
+.wyt{
+	text-align: center; 
+	border-bottom: 1px solid #ddd;
+}
+.bdr_lft{
+	border-left: 1px solid #ddd;
+	padding: 24px;
+	
+}
+.bdr_ryt{
+	border-right: 1px solid #ddd;
+}
+.delist li{
+	border: 1px solid #ddd;
+}
+
+.delist li a{
+ 	padding: 8px;
+    font-size: 22px;
+    color: #000000;
+ }
+.book_img{
+	width: 25%;
+}
+.input_value{
+	width: 50px;
+	border: none;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+	color: #000000;
+}
+.form-horizontal {
+	font-size: 15px;	
+}
+.btns{
+	padding: 50px 0;
+}
+.btn_lable{
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+.btns .list-inline>li {
+    display: table-cell;
+    padding-right: 5px;
+    padding-left: 0;
+}
+.table>tbody>tr>td:nth-child(1){
+	width: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.table>tbody>tr>td:nth-child(2){
+	width: 20px;
+}
+.table>tbody>tr>td:nth-child(3){
+	width: 50px;
+}
+.table>tbody>tr>td:nth-child(4){
+	width: 30px;
+}
+.table>thead>tr>th:nth-child(1){
+	width: 50%;
+}
+.table>thead>tr>th:nth-child(2){
+	width: 15%;
+}
+.table>thead>tr>th:nth-child(3){
+	width: 40%;
+}
+.table>thead>tr>th:nth-child(4){
+	width: 40%;
+}
+
+.list_book li{
+	vertical-align: top;
+	display: table-cell;
+	padding: 5px;
+}
+.table>tbody>tr>td{
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.table-responsive {
+    overflow-x: inherit;
+}
+#banner .modal-content{
+	padding: 20px;
+	background: pink;
+	position: absolute;
+}
+.my_cart{
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+}
+#banner .modal.in .modal-dialog {
+    margin-right: 22%;
+    margin-top: 81px;
+    position: relative;
+}
+
+
+
+@media(max-width: 1440px){
+	/*=========================15.12.2017=============================*/
+	.book_img {
+	    width: 24%;
+	}
+	.bdr_lft {
+	    padding: 17px;
+	}
+	.btn_pour{
+		width: 100%;
+		padding:15px;
+		font-size: 9px;
+	}
+	#banner .modal.in .modal-dialog {
+	    margin-right: 6%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	/*==========================15.12.2017================*/
+	.bdr_lft {
+	    padding: 7px;
+	}
+	.btn_pour{
+		width: 100%;
+		padding:2px;
+		font-size: 9px;
+	}
+	.btn_lable {
+	    font-size: 14px;
+	}
+
+}
+@media(max-width: 767px){
+
+	/*===============================================15.12.2017=================*/
+	.detail_txt {
+	    font-size: 15px;
+	}
+	#details_form form {
+	    font-size: 14px;
+	}
+	.btns .list-inline>li {
+	    padding-right: 0;
+	    padding-left: 0;
+	    display: block;
+	}
+	.seance_txt {
+	    font-size: 13px;
+	}
+	.table-responsive {
+	    overflow-x: auto;
+	}
+	#banner .modal.in .modal-dialog {
+	    float: none;
+	    margin-left: 94px;
+	}
+
+.anim #banner {
+    
+    background: transparent!important ;
+}
+
+}
